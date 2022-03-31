@@ -5,7 +5,7 @@ Hi! First of all thanks for the test. It was fun and I really enjoyed the given 
 ## State control:
 
 I chose to use the Redux to control the applications state.
-By clicking on the the three small dots next to the task name a dialog window opens which lets you change the task info and once saved alters the redux state. (sorry for the design of the dialog window, but that is probably not important right now)
+By clicking on the three small dots next to the task name a dialog window opens. It let's you change the task info and, once saved, alters the redux state. (sorry for the design of the dialog window, but that is probably not important right now).
 In this set-up I would also perform GET and POST requests to API from the reducers with Redux thunks. I didn't perform any data validation at this moment, which I would on a real use case.
 
 ## Design:
